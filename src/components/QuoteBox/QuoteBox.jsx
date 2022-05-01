@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './QuoteBox.css';
-import quotes from 'sample/quotes.json';
-import Button from 'components/Button/Button';
-import { randomColor, randomNumber } from 'helpers/randomGenerators';
+import quotes from '../../sample/quotes.json';
+import Button from '../Button/Button';
+import { randomColor, randomNumber } from '../../helpers/randomGenerators';
 
 function QuoteBox() {
    const [index, setIndex] = useState(randomNumber({ limit: quotes.length }));

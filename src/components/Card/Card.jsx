@@ -1,4 +1,4 @@
-import QuoteBox from 'components/QuoteBox/QuoteBox';
+import QuoteBox from '../QuoteBox/QuoteBox';
 import './Card.css';
 
 function Card() {
