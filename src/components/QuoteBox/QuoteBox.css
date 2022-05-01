@@ -1,0 +1,49 @@
+.quote-box {
+    margin: auto;
+}
+
+.quote-sign {
+    text-shadow: 1px 0 0 var(--border-quote), -1px 0 0 var(--border-quote), 0 1px 0 var(--border-quote), 0 -1px 0 var(--border-quote), 1px 1px var(--border-quote), -1px -1px 0 var(--border-quote), 1px -1px 0 var(--border-quote), -1px 1px 0 var(--border-quote);
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+.quote-text {
+    text-shadow: 1px 0 0 var(--border-text), -1px 0 0 var(--border-text), 0 1px 0 var(--border-text), 0 -1px 0 var(--border-text), 1px 1px var(--border-text), -1px -1px 0 var(--border-text), 1px -1px 0 var(--border-text), -1px 1px 0 var(--border-text);
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.quote-box .quote-cite {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.25rem;
+}
+
+.quote-box .quote-author {
+    font-weight: bold;
+    text-align: right;
+    margin-top: .5rem;
+    display: block;
+}
+
+.quote-box .close-quote {
+    text-align: right;
+}
+
+@media only screen and (min-width: 475px) {
+    .quote-box {
+        font-size: 1.25rem;
+    }
+
+    .quote-sign {
+        font-size: 4rem;
+        line-height: 3rem;
+    }
+
+    .quote-box .quote-cite {
+        font-family: 'Pacifico', cursive;
+        font-size: 1.5rem;
+    }
+}
